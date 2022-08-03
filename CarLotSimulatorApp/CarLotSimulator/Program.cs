@@ -89,7 +89,7 @@ namespace CarLotSimulator
                 IsDriveable = true,
             };
 
-            Console.WriteLine("----------------------------");
+            Console.WriteLine("-------------------------");
 
             //Instance 3
            
@@ -99,16 +99,18 @@ namespace CarLotSimulator
             myCar.MakeEngineNoise(myCar.EngineNoise);
             myCar.MakeHonkNoise(myCar.HonkNoise);
 
-            Console.WriteLine("----------------------------");
+            Console.WriteLine("-------------------------");
 
             car.MakeEngineNoise(car.EngineNoise);
             car.MakeHonkNoise(car.HonkNoise);
 
-            Console.WriteLine("----------------------------");
+            Console.WriteLine("-------------------------");
 
 
             hyundai.MakeEngineNoise(hyundai.EngineNoise);
             hyundai.MakeHonkNoise(hyundai.HonkNoise);
+
+            Console.WriteLine($"Number of cars created : {CarLot.numberOfCars}");
 
 
             Console.ReadLine();
